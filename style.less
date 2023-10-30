@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Rokkitt:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// color
+@primary-color: #ffffff;
+@primary-font-color: #000000;
+@secondary-font-color: #4C4C4C;
+// font-fam
+@poppins: Poppins, sans-serif;
+@rokkit: Rokkitt, serif;
+
+body {
+    font-family: @poppins;
+    background-color: @primary-color;
+}
+
+.flex-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.main-container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.main-container {
+    .header {
+        .header-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .header-content {
+                width: 100%;
+                padding: 17px 27px 10px;
+
+                @media screen and (max-width:1279px) {
+                    padding: 17px 20px 10px;
+
+                }
+
+                @media screen and (max-width:768px) {
+                    padding: 17px 17px 10px;
+                }
+
+                @media screen and (max-width:630px) {
+                    padding: 17px 15px 10px;
+                }
+
+                span {
+                    margin-right: 5px;
+                    color: @secondary-font-color;
+
+                    @media screen and (max-width: 375px) {
+                        margin-right: 0;
+                    }
+                }
+
+                .secure-shop {
+                    .txt-content {
+                        color: @primary-font-color;
+
+                        @media screen and(max-width:630px) {
+                            display: none;
+                        }
+
+                        .bold-txt {
+                            font: bold 14px/17px @rokkit;
+                        }
+
+                        .light-txt {
+                            font: normal 10px/15px @poppins;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+
+                .logo-sec {
+                    max-width: 100%;
+
+                    @media screen and (max-width:375px) {
+                        width: 110px;
+                    }
+                }
+
+                .contact-sec {
+                    align-items: baseline;
+
+                    .contact-details {
+                        margin-right: 45px;
+
+                        @media screen and (max-width: 768px) {
+                            margin-right: 42px;
+                        }
+
+                        @media screen and (max-width:655px) {
+                            margin-right: 15px;
+                        }
+
+                        @media screen and (max-width:630px) {
+                            margin-right: 35px;
+                        }
+
+
+                        @media screen and (max-width: 375px) {
+                            margin-right: 20px;
+                        }
+
+                        a {
+                            text-decoration: none;
+                            color: @primary-font-color;
+
+                            .ph-no {
+                                font: normal 15px/23px @poppins;
+                                letter-spacing: 2px;
+
+                                @media screen and (max-width: 768px) {
+                                    letter-spacing: 0px;
+                                }
+
+                                @media screen and (max-width: 630px) {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        .availabilty {
+                            font: normal 10px/16px @poppins;
+                            text-align: center;
+
+                            @media screen and (max-width: 630px) {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    .sign-in-option {
+                        a {
+                            text-decoration: none;
+                            color: @primary-font-color;
+
+                            .sign-in-txt {
+                                font: normal 15px/23px @poppins;
+                                letter-spacing: 1px;
+
+                                @media screen and (min-width: 768px) {
+                                    letter-spacing: 0px;
+                                }
+
+                                @media screen and (max-width: 630px) {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+            }
+
+            .header-bottom-banner {
+                max-width: 100%;
+
+                img {
+                    height: 10px;
+                }
+            }
+        }
+
+    }
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
