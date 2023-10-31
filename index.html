@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,122 +48,145 @@
             </div>
         </header>
         <main class="body-container flex-wrap">
-            <section class="cart-sec">
-                <div class="cart-container">
-                    <div class="product-count">
-                        <h2>Your Cart (7 Items)</h2>
-                        <p class="free-ship-alert flex-wrap">
-                            <span class="material-symbols-outlined">info</span>
-                            You only need <strong class="need-amt"> $141.34 </strong> more to receive Free Shipping.
-                        </p>
+            <div class="left-side">
+                <section class="cart-sec">
+                    <div class="cart-container">
+                        <div class="product-count">
+                            <h2>Your Cart (7 Items)</h2>
+                            <p class="free-ship-alert flex-wrap">
+                                <span class="material-symbols-outlined">info</span>
+                                You only need <strong class="need-amt"> $141.34 </strong> more to receive Free Shipping.
+                            </p>
+                        </div>
+                        <div class="table-container">
+                            <table class="cart">
+                                <thead class="table-head">
+                                    <tr class="thead-row">
+                                        <td class="cart-header" colspan="2">ITEM</td>
+                                        <td class="cart-header">PRICE</td>
+                                        <td class="cart-header">QUANTITY</td>
+                                        <td class="cart-header">SUBTOTAL</td>
+                                    </tr>
+                                </thead>
+                                <tbody class="table-body">
+                                    <tr class="tbody-row">
+                                        <td class="cart-item-image">
+                                            <img src="images/cart-products/Screen Shot 2022-10-17 at 4.48.09 PM.jpg"
+                                                alt="plastic vials">
+                                        </td>
+                                        <td class="cart-item-desc">
+                                            <h3>TPS Reversible Cap Plastic Vials</h3>
+                                            <p class="item-id">Item #72615-AM-08
+                                            <p>
+                                            <p class="color">Color: <strong>Amber</strong></p>
+                                            <p class="size">Solor: <strong>8 Dram</strong></p>
+                                        </td>
+                                        <td class="cart-item-block price-info">
+                                            <span>PRICE</span>
+                                            <p class="price">$56.54 / CS (360)</p>
+                                        </td>
+                                        <td class="cart-item-block qty-info">
+                                            <span>QUANTITY</span>
+                                            <div class="quantity flex-wrap">
+                                                <button class="increase-btn flex-wrap">
+                                                    <span class="material-symbols-outlined">
+                                                        expand_less
+                                                    </span>
+                                                </button>
+                                                <input type="text" value="0">
+                                                <button class="decrease-btn flex-wrap">
+                                                    <span class="material-symbols-outlined">
+                                                        expand_more
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="cart-item-block sub-total-info">
+                                            <span>SUBTOTAL</span>
+                                            <div class="sub-total-div flex-wrap">
+                                                <p class="total-cost">$56.54</p>
+                                                <span class="material-symbols-outlined">
+                                                    cancel
+                                                </span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="tbody-row">
+                                        <td class="cart-item-image">
+                                            <img src="images/cart-products/graduated cylinders.jpg" alt="graduate cylinder">
+                                        </td>
+                                        <td class="cart-item-desc">
+                                            <h3>TPX® Graduated Cylinders</h3>
+                                            <p class="item-id">Item #21516-100
+                                            <p>
+                                            <p class="color">Type: <strong>plastic</strong></p>
+                                            <p class="size">Solor: <strong>100 ml</strong></p>
+                                        </td>
+                                        <td class="cart-item-block price-info">
+                                            <span>PRICE</span>
+                                            <p class="price">$17.02 / EA</p>
+                                        </td>
+                                        <td class="cart-item-block qty-info">
+                                            <span>QUANTITY</span>
+                                            <div class="quantity flex-wrap">
+                                                <button class="increase-btn flex-wrap">
+                                                    <span class="material-symbols-outlined">
+                                                        expand_less
+                                                    </span>
+                                                </button>
+                                                <input type="text" value="6">
+                                                <button class="decrease-btn flex-wrap">
+                                                    <span class="material-symbols-outlined">
+                                                        expand_more
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="cart-item-block sub-total-info">
+                                            <span>SUBTOTAL</span>
+                                            <div class="sub-total-div flex-wrap">
+                                                <p class="total-cost">$102.12</p>
+                                                <span class="material-symbols-outlined">
+                                                    cancel
+                                                </span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="continue-shop-btn">
+                            <a href="#" class="flex-wrap">
+                                <span class="material-symbols-outlined">
+                                    arrow_left
+                                </span>
+                                Continue Shopping
+                            </a>
+                        </div>
                     </div>
-                    <div class="table-container">
-                        <table class="cart">
-                            <thead class="table-head">
-                                <tr class="thead-row">
-                                    <td class="cart-header" colspan="2">ITEM</td>
-                                    <td class="cart-header">PRICE</td>
-                                    <td class="cart-header">QUANTITY</td>
-                                    <td class="cart-header">SUBTOTAL</td>
-                                </tr>
-                            </thead>
-                            <tbody class="table-body">
-                                <tr class="tbody-row">
-                                    <td class="cart-item-image">
-                                        <img src="images/cart-products/Screen Shot 2022-10-17 at 4.48.09 PM.jpg"
-                                            alt="plastic vials">
-                                    </td>
-                                    <td class="cart-item-desc">
-                                        <h3>TPS Reversible Cap Plastic Vials</h3>
-                                        <p class="item-id">Item #72615-AM-08
-                                        <p>
-                                        <p class="color">Color: <strong>Amber</strong></p>
-                                        <p class="size">Solor: <strong>8 Dram</strong></p>
-                                    </td>
-                                    <td class="cart-item-block price-info">
-                                        <span>PRICE</span>
-                                        <p class="price">$56.54 / CS (360)</p>
-                                    </td>
-                                    <td class="cart-item-block qty-info">
-                                        <span>QUANTITY</span>
-                                        <div class="quantity flex-wrap">
-                                            <button class="increase-btn flex-wrap">
-                                                <span class="material-symbols-outlined">
-                                                    expand_less
-                                                </span>
-                                            </button>
-                                            <input type="text" value="0">
-                                            <button class="decrease-btn flex-wrap">
-                                                <span class="material-symbols-outlined">
-                                                    expand_more
-                                                </span>
-                                            </button>
-                                        </div>
-                                    </td>
-                                    <td class="cart-item-block sub-total-info">
-                                        <span>SUBTOTAL</span>
-                                        <div class="sub-total-div flex-wrap">
-                                            <p class="total-cost">$56.54</p>
-                                            <span class="material-symbols-outlined">
-                                                cancel
-                                            </span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr class="tbody-row">
-                                    <td class="cart-item-image">
-                                        <img src="images/cart-products/graduated cylinders.jpg" alt="graduate cylinder">
-                                    </td>
-                                    <td class="cart-item-desc">
-                                        <h3>TPX® Graduated Cylinders</h3>
-                                        <p class="item-id">Item #21516-100
-                                        <p>
-                                        <p class="color">Type: <strong>plastic</strong></p>
-                                        <p class="size">Solor: <strong>100 ml</strong></p>
-                                    </td>
-                                    <td class="cart-item-block price-info">
-                                        <span>PRICE</span>
-                                        <p class="price">$17.02 / EA</p>
-                                    </td>
-                                    <td class="cart-item-block qty-info">
-                                        <span>QUANTITY</span>
-                                        <div class="quantity flex-wrap">
-                                            <button class="increase-btn flex-wrap">
-                                                <span class="material-symbols-outlined">
-                                                    expand_less
-                                                </span>
-                                            </button>
-                                            <input type="text" value="6">
-                                            <button class="decrease-btn flex-wrap">
-                                                <span class="material-symbols-outlined">
-                                                    expand_more
-                                                </span>
-                                            </button>
-                                        </div>
-                                    </td>
-                                    <td class="cart-item-block sub-total-info">
-                                        <span>SUBTOTAL</span>
-                                        <div class="sub-total-div flex-wrap">
-                                            <p class="total-cost">$102.12</p>
-                                            <span class="material-symbols-outlined">
-                                                cancel
-                                            </span>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                </section>
+                <section class="other-services-desktop flex-wrap">
+                    <div class="service-container flex-wrap">
+                        <div class="free-ship-cont">
+                            <img src="images/cart-products/graduated cylinders.jpg" alt="parcel image">
+                            <h4>Free shipping $300!</h4>
+                            <p class="detailed-txt">Lorem ipsum dolor sit amet, quas? Possimus, dolorum.</p>
+                            <a href="#">>See Details</a>
+                        </div>
+                        <div class="help-center-cont">
+                            <img src="images/cart-products/graduated cylinders.jpg" alt="parcel image">
+                            <h4>Free shipping $300!</h4>
+                            <p class="detailed-txt">Lorem ipsum dolor sit amet, voluptatum expedita quas? Possimus, dolorum.</p>
+                        </div>
+                        <div class="return-policy-cont">
+                            <img src="images/cart-products/graduated cylinders.jpg" alt="parcel image">
+                            <h4>Free shipping $300!</h4>
+                            <p class="detailed-txt">Lorem ipsum dolor sit amet, voluptatum expedita quas? Possimus, dolorum.</p>
+                            <a href="#">>See Details</a>
+                        </div>
                     </div>
-                    <div class="continue-shop-btn">
-                        <a href="#" class="flex-wrap">
-                            <span class="material-symbols-outlined">
-                                arrow_left
-                            </span>
-                            Continue Shopping
-                        </a>
-                    </div>
-                </div>
-            </section>
+                </section>
+            </div>
             <section class="order-summary">
                 <div class="summary-container">
                     <div class="heading">
@@ -206,12 +228,107 @@
                             <a href="">Estimate Shipping</a>
                         </div>
                     </div>
+                    <div class="inputs-container ">
+                        <div class="country flex-wrap">
+                            <label for="country">Country</label>
+                            <input type="text" placeholder="United States">
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </div>
+                        <div class="state flex-wrap">
+                            <label for="state">State/Province</label>
+                            <input type="text" placeholder="State/Province">
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </div>
+                        <div class="city flex-wrap">
+                            <label for="city">Suburb/City</label>
+                            <input type="text" placeholder="Suburb/City">
+                        </div>
+                        <div class="postal-code flex-wrap">
+                            <label for="zip code">ZIP/Postal Code</label>
+                            <input type="text" placeholder="ZIP/Postal Code">
+                        </div>
+                        <div class="estime-btn">
+                            <a href="">Estimate Shipping</a>
+                        </div>
+                    </div>
+                    <div class="inputs-container ">
+                        <div class="country flex-wrap">
+                            <label for="country">Country</label>
+                            <input type="text" placeholder="United States">
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </div>
+                        <div class="state flex-wrap">
+                            <label for="state">State/Province</label>
+                            <input type="text" placeholder="State/Province">
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </div>
+                        <div class="city flex-wrap">
+                            <label for="city">Suburb/City</label>
+                            <input type="text" placeholder="Suburb/City">
+                        </div>
+                        <div class="postal-code flex-wrap">
+                            <label for="zip code">ZIP/Postal Code</label>
+                            <input type="text" placeholder="ZIP/Postal Code">
+                        </div>
+                        <div class="estime-btn">
+                            <a href="">Estimate Shipping</a>
+                        </div>
+                    </div>
+                    <div class="inputs-container ">
+                        <div class="country flex-wrap">
+                            <label for="country">Country</label>
+                            <input type="text" placeholder="United States">
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </div>
+                        <div class="state flex-wrap">
+                            <label for="state">State/Province</label>
+                            <input type="text" placeholder="State/Province">
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </div>
+                        <div class="city flex-wrap">
+                            <label for="city">Suburb/City</label>
+                            <input type="text" placeholder="Suburb/City">
+                        </div>
+                        <div class="postal-code flex-wrap">
+                            <label for="zip code">ZIP/Postal Code</label>
+                            <input type="text" placeholder="ZIP/Postal Code">
+                        </div>
+                        <div class="estime-btn">
+                            <a href="">Estimate Shipping</a>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <section class="other-services">
-                <div class="service-container flex-wrap">
+            <section class="other-service-tab-mobile">
+                <div class="service-container">
                     <div class="free-ship-cont">
-                        <img src="images/other-policy/" alt="">
+                        <img src="images/cart-products/graduated cylinders.jpg" alt="parcel image">
+                        <h4>Free shipping $300!</h4>
+                        <p class="detailed-txt">Lorem ipsum dolor sit amet, c  <a href="#">>See Details</a>onsectetur adipisicing elit. Velit impedit earum quos amet enim necessitatibus illum facere dolores numquam distinctio, laboriosam illo consequatur ipsa itaque voluptatum expedita quas? Possimus, dolorum.</p>
+                        <a href="#">>See Details</a>
+                    </div>
+                    <div class="help-center-cont">
+                        <img src="images/cart-products/graduated cylinders.jpg" alt="parcel image">
+                        <h4>Free shipping $300!</h4>
+                        <p class="detailed-txt">Lorem ipsum dolor sit amet, c  <a href="#">>See Details</a>onsectetur adipisicing elit. Velit impedit earum quos amet enim necessitatibus illum facere dolores numquam distinctio, laboriosam illo consequatur ipsa itaque voluptatum expedita quas? Possimus, dolorum.</p>
+                    </div>
+                    <div class="return-policy-cont">
+                        <img src="images/cart-products/graduated cylinders.jpg" alt="parcel image">
+                        <h4>Free shipping $300!</h4>
+                        <p class="detailed-txt">Lorem ipsum dolor sit amet, c  <a href="#">>See Details</a>onsectetur adipisicing elit. Velit impedit earum quos amet enim necessitatibus illum facere dolores numquam distinctio, laboriosam illo consequatur ipsa itaque voluptatum expedita quas? Possimus, dolorum.</p>
+                        <a href="#">>See Details</a>
                     </div>
                 </div>
             </section>
