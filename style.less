@@ -17,6 +17,7 @@
 body {
     font-family: @poppins;
     background-color: @primary-color;
+
 }
 
 .flex-wrap {
@@ -34,7 +35,6 @@ img {
     max-width: 1366px;
     width: 100%;
     margin: 0 auto;
-    
 }
 
 .main-container {
@@ -173,7 +173,9 @@ img {
             }
 
             .header-bottom-banner {
-                max-width: 100%;
+                width: 100%;
+                z-index: 1;
+                height: 10px;
 
                 img {
                     height: 10px;
@@ -181,6 +183,275 @@ img {
             }
         }
 
+    }
+
+    .body-container {
+        flex-wrap: wrap;
+        align-items: flex-start;
+
+        .cart-sec,
+        .other-services {
+            flex-basis: 68.9%;
+        }
+
+        .cart-sec {
+            .cart-container {
+                padding: 0px 28px 0px 44px;
+
+                .product-count {
+                    h2 {
+                        font: normal 28px/50px @rokkit;
+                        color: @secondary-font-color;
+                    }
+
+                    .free-ship-alert {
+                        background-color: #E5F4F4;
+                        justify-content: center;
+                        font: bold 12px/18px @poppins;
+                        color: #009191;
+                        padding: 7px 0px;
+
+                        .need-amt {
+                            color: @primary-font-color;
+                            margin: 0px 2px;
+                        }
+                    }
+                }
+
+                // table main container div
+                .table-container {
+
+                    // table
+                    .cart {
+                        width: 100%;
+                        border-collapse: collapse;
+                        border-spacing: 0;
+
+                        // table head
+                        .table-head {
+                            border-bottom: 1px solid @primary-font-color;
+
+                            // table headings row
+                            .thead-row {
+                                margin-bottom: 10px;
+
+                                // table heading data
+                                .cart-header {
+                                    font: bold 12px/50px @poppins;
+                                    color: @primary-font-color;
+                                }
+                            }
+                        }
+
+                        // table inner body
+                        .table-body {
+
+                            // table body row
+                            .tbody-row {
+                                border-bottom: 1px solid #C7C7C7;
+
+                                // creating top bottom space for all tha table data
+                                td {
+                                    padding: 10px 0px;
+                                }
+
+                                // cart product image -- tabel data-1
+                                .cart-item-image {
+                                    max-width: 100%;
+                                    display: flex;
+
+                                    // product image
+                                    img {
+                                        width: auto;
+                                    }
+                                }
+
+                                // product description -- tabel data-2
+                                .cart-item-desc {
+
+                                    // product name
+                                    h3 {
+                                        font: bold 18px/20px @rokkit;
+                                        color: #E04726;
+                                    }
+
+                                    .item-id {
+                                        font: normal 11px/20px @poppins;
+                                        color: #656565;
+                                    }
+
+                                    .color,
+                                    .size {
+                                        font: normal 12px/18px @poppins;
+                                        color: @primary-font-color;
+                                    }
+                                }
+
+                                // hided headings
+                                .cart-item-block {
+                                    &>span {
+                                        display: none;
+                                    }
+                                }
+
+                                // price info -- tabel data-3
+                                .price-info {
+                                    .price {
+                                        font: normal 14px 50px @poppins;
+                                        color: @primary-font-color;
+                                    }
+                                }
+
+                                // quantity info -- tabel data-4
+                                .qty-info {
+
+                                    // quantity info inner div
+                                    .quantity {
+                                        justify-content: unset;
+
+                                        &>* {
+                                            height: 40px;
+                                            width: 24px;
+                                            border: 1px solid #E6E6E6;
+                                            background-color: #EBEBEB;
+                                            color: #707070;
+                                        }
+
+                                        // incrrease decrease buttons
+                                        button {
+                                            cursor: pointer;
+                                            font-size: 20px;
+                                            justify-content: center;
+                                        }
+
+                                        // quantity input box
+                                        input {
+                                            width: 50px;
+                                            background-color: @primary-color;
+                                            text-align: center;
+                                            margin: 0px 5px;
+                                            font: normal 16px/25px @poppins;
+
+                                            &:focus {
+                                                outline: none;
+                                                cursor: context-menu;
+                                                caret-color: transparent;
+
+                                            }
+                                        }
+
+                                    }
+                                }
+
+                                // sub total info -- tabel data-5
+                                .sub-total-info {
+
+                                    // sub total inner div
+                                    .sub-total-div {
+                                        cursor: pointer;
+                                        justify-content: center;
+
+                                        .total-cost {
+                                            font: bold 16px/50px @poppins;
+                                            color: @primary-font-color;
+                                            margin-right: 12px;
+                                        }
+
+                                        // close button
+                                        span {
+                                            color: @secondary-font-color;
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                .continue-shop-btn {
+                    display: inline-block;
+                    margin-top: 20px;
+
+                    a {
+                        text-decoration: none;
+                        justify-content: flex-start;
+                        font: bold 14px/15px @rokkit;
+                        color: #009191;
+                        border: 1px solid #009191;
+                        padding: 11px 20px;
+                    }
+                }
+            }
+        }
+
+        .order-summary {
+            flex-basis: 31%;
+
+            .summary-container {
+                background-color: #EEEEEE;
+                padding: 31px 64px 80px 40px;
+
+                .heading {
+                    h2 {
+                        font: normal 28px/50px @rokkit;
+                        color: @secondary-font-color;
+                    }
+                }
+
+                .subtotoal,
+                .estim-ship {
+                    span {
+                        font: bold 14px/40px @poppins;
+                        color: @primary-font-color;
+                    }
+
+                    .amt {
+                        font-weight: 500;
+                    }
+                }
+
+                .estim-ship {
+                    a {
+                        color: @primary-font-color;
+                    }
+                }
+
+                .inputs-container {
+                    div {
+                        position: relative;
+
+                        label {
+                            font: normal 14px/50px @poppins;
+                            color: @secondary-font-color;
+                        }
+
+                        input {
+                            height: 40px;
+                            width: 190px;
+                            border: 1px solid #C7C7C7;
+                            padding: 0px 15px;
+
+                            &:focus {
+                                outline: none;
+                            }
+                            &::placeholder{
+                                font: normal 14px/21px @poppins;
+                            }
+                        }
+
+                        span {
+                            position: absolute;
+                            right: 5px;
+                            top: 16px;
+                            color: #707070;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
