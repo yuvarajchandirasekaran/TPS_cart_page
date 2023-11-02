@@ -411,6 +411,11 @@ img {
     flex-basis: 79%;
   }
 }
+@media screen and (max-width: 375px) {
+  .main-container .body-container .left-side .cart-sec .cart-container .table-container .table .table-body .tbody-row .cart-item-desc {
+    padding-left: 0;
+  }
+}
 .main-container .body-container .left-side .cart-sec .cart-container .table-container .table .table-body .tbody-row .cart-item-desc h3 {
   font: bold 18px/20px Rokkitt, serif;
   color: #E04726;
