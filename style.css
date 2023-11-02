@@ -81,7 +81,7 @@ img {
 }
 .main-container .header .header-container .header-content {
   width: 100%;
-  padding: 17px 27px 10px;
+  padding: 17px 27px 0;
 }
 @media screen and (max-width: 1279px) {
   .main-container .header .header-container .header-content {
