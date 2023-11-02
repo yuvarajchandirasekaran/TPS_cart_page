@@ -296,7 +296,7 @@ img {
 }
 @media screen and (max-width: 375px) {
   .main-container .body-container .left-side .cart-sec .cart-container .product-count .free-ship-alert {
-    font: bold 8px/16px Poppins, sans-serif;
+    font: bold 8px/18px Poppins, sans-serif;
   }
 }
 .main-container .body-container .left-side .cart-sec .cart-container .product-count .free-ship-alert .need-amt {
