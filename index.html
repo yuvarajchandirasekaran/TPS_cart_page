@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,275 +9,164 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Cart page</title>
 </head>
+
 <body>
-    <div class="main-container">
-        <header class="header">
-            <div class="header-container">
-                <div class="header-content flex-wrap">
-                    <div class="secure-shop flex-wrap">
-                        <span class="material-symbols-outlined">lock</span>
-                        <div class="txt-content">
-                            <p class="bold-txt">QUICK & EASY CHECKOUT</p>
-                            <p class="light-txt">100% SECURE SHOPPING</p>
-                        </div>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-content flex-wrap">
+                <div class="secure-shop flex-wrap">
+                    <span class="material-symbols-outlined">lock</span>
+                    <div class="txt-content">
+                        <p class="bold-txt">QUICK & EASY CHECKOUT</p>
+                        <p class="light-txt">100% SECURE SHOPPING</p>
                     </div>
-                    <div class="logo-sec">
-                        <a href="#">
-                            <img src="images/header/header-logo.png" alt="header logo">
+                </div>
+                <div class="logo-sec">
+                    <a href="#">
+                        <img src="images/header/header-logo.png" alt="header logo">
+                    </a>
+                </div>
+                <div class="contact-sec flex-wrap">
+                    <div class="contact-details">
+                        <a href="" class="flex-wrap">
+                            <span class="material-symbols-outlined">phone_enabled</span>
+                            <p class="ph-no">(800) 878-2822</p>
+                        </a>
+                        <p class="availabilty">Mon-Fri | 8-5 Central</p>
+                    </div>
+                    <div class="sign-in-option">
+                        <a href="" class="flex-wrap">
+                            <span class="material-symbols-outlined">person</span>
+                            <p class="sign-in-txt">SIGN IN</p>
                         </a>
                     </div>
-                    <div class="contact-sec flex-wrap">
-                        <div class="contact-details">
-                            <a href="" class="flex-wrap">
-                                <span class="material-symbols-outlined">phone_enabled</span>
-                                <p class="ph-no">(800) 878-2822</p>
-                            </a>
-                            <p class="availabilty">Mon-Fri | 8-5 Central</p>
-                        </div>
-                        <div class="sign-in-option">
-                            <a href="" class="flex-wrap">
-                                <span class="material-symbols-outlined">person</span>
-                                <p class="sign-in-txt">SIGN IN</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="header-bottom-banner">
-                    <img src="images/header/bottom-banner.png" alt="header bottom-banner">
                 </div>
             </div>
-        </header>
-        <main class="body-container flex-wrap">
-            <div class="left-side">
-                <section class="cart-sec">
-                    <div class="cart-container">
-                        <div class="product-count">
-                            <h2>Your Cart (7 Items)</h2>
-                            <p class="free-ship-alert flex-wrap">
-                                <span class="material-symbols-outlined">info</span>
-                                You only need <strong class="need-amt"> $141.34 </strong> more to receive Free Shipping.
-                            </p>
-                        </div>
-                        <div class="table-container">
-                            <table class="table">
-                                <thead class="table-head">
-                                    <tr class="thead-row">
-                                        <td class="cart-header" colspan="2">ITEM</td>
-                                        <td class="cart-header">PRICE</td>
-                                        <td class="cart-header">QUANTITY</td>
-                                        <td class="cart-header">SUBTOTAL</td>
-                                    </tr>
-                                </thead>
-                                <tbody class="table-body">
-                                    <tr class="tbody-row">
-                                        <td class="cart-item-image">
-                                            <img src="images/cart-products/Screen Shot 2022-10-17 at 4.48.09 PM.jpg"
-                                                alt="plastic vials">
-                                        </td>
-                                        <td class="cart-item-desc">
-                                            <h3>TPS Reversible Cap Plastic Vials</h3>
-                                            <p class="item-id">Item #72615-AM-08
-                                            <p>
-                                            <p class="color">Color: <strong>Amber</strong></p>
-                                            <p class="size">Solor: <strong>8 Dram</strong></p>
-                                        </td>
-                                        <td class="cart-item-block price-info">
-                                            <span>PRICE</span>
-                                            <p class="price">$56.54 / CS (360)</p>
-                                        </td>
-                                        <td class="cart-item-block qty-info">
-                                            <span>QUANTITY</span>
-                                            <div class="quantity flex-wrap">
-                                                <button class="increase-btn flex-wrap">
-                                                    <span class="material-symbols-outlined">
-                                                        expand_less
-                                                    </span>
-                                                </button>
-                                                <input type="text" value="0">
-                                                <button class="decrease-btn flex-wrap">
-                                                    <span class="material-symbols-outlined">
-                                                        expand_more
-                                                    </span>
-                                                </button>
-                                            </div>
-                                        </td>
-                                        <td class="cart-item-block sub-total-info">
-                                            <span>SUBTOTAL</span>
-                                            <div class="sub-total-div flex-wrap">
-                                                <p class="total-cost">$56.54</p>
-                                                <span class="material-symbols-outlined">
-                                                    cancel
-                                                </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr class="tbody-row">
-                                        <td class="cart-item-image">
-                                            <img src="images/cart-products/graduated cylinders.jpg"
-                                                alt="graduate cylinder">
-                                        </td>
-                                        <td class="cart-item-desc">
-                                            <h3>TPX® Graduated Cylinders</h3>
-                                            <p class="item-id">Item #21516-100
-                                            <p>
-                                            <p class="color">Type: <strong>plastic</strong></p>
-                                            <p class="size">Solor: <strong>100 ml</strong></p>
-                                        </td>
-                                        <td class="cart-item-block price-info">
-                                            <span>PRICE</span>
-                                            <p class="price">$17.02 / EA</p>
-                                        </td>
-                                        <td class="cart-item-block qty-info">
-                                            <span>QUANTITY</span>
-                                            <div class="quantity flex-wrap">
-                                                <button class="increase-btn flex-wrap">
-                                                    <span class="material-symbols-outlined">
-                                                        expand_less
-                                                    </span>
-                                                </button>
-                                                <input type="text" value="6">
-                                                <button class="decrease-btn flex-wrap">
-                                                    <span class="material-symbols-outlined">
-                                                        expand_more
-                                                    </span>
-                                                </button>
-                                            </div>
-                                        </td>
-                                        <td class="cart-item-block sub-total-info">
-                                            <span>SUBTOTAL</span>
-                                            <div class="sub-total-div flex-wrap">
-                                                <p class="total-cost">$102.12</p>
-                                                <span class="material-symbols-outlined">
-                                                    cancel
-                                                </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="continue-shop-btn">
-                            <a href="#" class="flex-wrap">
-                                <span class="material-symbols-outlined">
-                                    arrow_left
-                                </span>
-                                Continue Shopping
-                            </a>
-                        </div>
-                    </div>
-                </section>
-                <section class="other-services-desktop ">
-                    <div class="service-container flex-wrap">
-                        <div class="free-ship-cont">
-                            <div class="policy-img-cont">
-                                <img src="images/other-policy/free shipping.png" alt="parcel image">
-                            </div>
-                            <h4>Free shipping $300!</h4>
-                            <p class="detailed-txt">Orders under $300 have a Flat
-                                Shipping Rate of $20. Most orders arrive within 3-7 business days.
-                            </p>
-                            <a href="#">> See Details</a>
-                        </div>
-                        <div class="help-center-cont">
-                            <div class="policy-img-cont">
-                                <img src="images/other-policy/help center.png" alt="customer care">
-                            </div>
-                            <h4>We’re Here to Help!</h4>
-                            <p class="detailed-txt">Questions? Call our Customer Service Team at (800) 878-2822. Our
-                                hours are
-                                Mon-Fri 8am-5pm CST.</p>
-                        </div>
-                        <div class="return-policy-cont">
-                            <div class="policy-img-cont">
-                                <img src="images/other-policy/return policy.png" alt="return image">
-                            </div>
-                            <h4>Return Policy</h4>
-                            <p class="detailed-txt">Most products may be returned for credit if they are in new, salable
-                                condition with original packaging.
-                            </p>
-                            <a href="#">> See Details</a>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <section class="order-summary">
-                <div class="summary-container">
-                    <div class="heading">
-                        <h2>Order Summary</h2>
-                        <hr>
-                    </div>
-                    <div class="subtotoal flex-wrap">
-                        <span class="">Subtotal:</span>
-                        <p class="amt"> $158.66</p>
-                    </div>
-                    <div class="estim-ship flex-wrap">
-                        <span class="">Estimate Shipping:</span>
-                        <p class="cancel-btn"> <a href="#">Cancel</a></p>
-                    </div>
-                    <div class="inputs-container ">
-                        <div class="country flex-wrap">
-                            <label for="country">Country</label>
-                            <input type="text" placeholder="United States">
-                            <span class="material-symbols-outlined">
-                                expand_more
-                            </span>
-                        </div>
-                        <div class="state flex-wrap">
-                            <label for="state">State/Province</label>
-                            <input type="text" placeholder="State/Province">
-                            <span class="material-symbols-outlined">
-                                expand_more
-                            </span>
-                        </div>
-                        <div class="city flex-wrap">
-                            <label for="city">Suburb/City</label>
-                            <input type="text" placeholder="Suburb/City">
-                        </div>
-                        <div class="postal-code flex-wrap">
-                            <label for="zip code">ZIP/Postal Code</label>
-                            <input type="text" placeholder="ZIP/Postal Code">
-                        </div>
-                        <div class="estime-btn">
-                            <a href="">Estimate Shipping</a>
-                        </div>
-                    </div>
-                    <div class="promo-sec">
-                        <div class="promo-head flex-wrap">
-                            <p>Promo Code:</p>
-                            <a href="#">Add Promo Code</a>
-                        </div>
-                        <div class="promo-inputs flex-wrap">
-                            <input type="text" placeholder="Enter Code">
-                            <a href="#">Apply</a>
-                        </div>
-                    </div>
-                    <div class="grand-total flex-wrap">
-                        <p class="txt-content">Grand Total:</p>
-                        <h2 class="grand-amt">$158.66</h2>
-                    </div>
-                    <hr>
-                    <div class="btm">
-                        <div class="discla-div flex-wrap">
+        </div>
+        <div class="header-bottom-banner">
+            <img src="images/header/bottom-banner.png" alt="header bottom-banner">
+        </div>
+    </header>
+    <main class="body-container flex-wrap">
+        <div class="left-side">
+            <section class="cart-sec">
+                <div class="cart-container">
+                    <div class="product-count">
+                        <h2>Your Cart (7 Items)</h2>
+                        <p class="free-ship-alert flex-wrap">
                             <span class="material-symbols-outlined">info</span>
-                            <p class="discla-txt">Orders shipping to Alaska, Hawaii, and International destinations will
-                                incur
-                                additional charges. You will receive a call from Customer Service with a quote for
-                                shipping
-                                after your order is placed.</p>
-                        </div>
-                        <a href="#" class="process-btn ">
+                            You only need <strong class="need-amt"> $141.34 </strong> more to receive Free Shipping.
+                        </p>
+                    </div>
+                    <div class="table-container">
+                        <table class="table">
+                            <thead class="table-head">
+                                <tr class="thead-row">
+                                    <td class="cart-header" colspan="2">ITEM</td>
+                                    <td class="cart-header">PRICE</td>
+                                    <td class="cart-header">QUANTITY</td>
+                                    <td class="cart-header">SUBTOTAL</td>
+                                </tr>
+                            </thead>
+                            <tbody class="table-body">
+                                <tr class="tbody-row">
+                                    <td class="cart-item-image">
+                                        <img src="images/cart-products/Screen Shot 2022-10-17 at 4.48.09 PM.jpg"
+                                            alt="plastic vials">
+                                    </td>
+                                    <td class="cart-item-desc">
+                                        <h3>TPS Reversible Cap Plastic Vials</h3>
+                                        <p class="item-id">Item #72615-AM-08
+                                        <p>
+                                        <p class="color">Color: <strong>Amber</strong></p>
+                                        <p class="size">Solor: <strong>8 Dram</strong></p>
+                                    </td>
+                                    <td class="cart-item-block price-info">
+                                        <span>PRICE</span>
+                                        <p class="price">$56.54 / CS (360)</p>
+                                    </td>
+                                    <td class="cart-item-block qty-info">
+                                        <span>QUANTITY</span>
+                                        <div class="quantity flex-wrap">
+                                            <button class="increase-btn flex-wrap">
+                                                <span class="material-symbols-outlined">
+                                                    expand_less
+                                                </span>
+                                            </button>
+                                            <input type="text" value="0">
+                                            <button class="decrease-btn flex-wrap">
+                                                <span class="material-symbols-outlined">
+                                                    expand_more
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </td>
+                                    <td class="cart-item-block sub-total-info">
+                                        <span>SUBTOTAL</span>
+                                        <div class="sub-total-div flex-wrap">
+                                            <p class="total-cost">$56.54</p>
+                                            <span class="material-symbols-outlined">
+                                                cancel
+                                            </span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="tbody-row">
+                                    <td class="cart-item-image">
+                                        <img src="images/cart-products/graduated cylinders.jpg" alt="graduate cylinder">
+                                    </td>
+                                    <td class="cart-item-desc">
+                                        <h3>TPX® Graduated Cylinders</h3>
+                                        <p class="item-id">Item #21516-100
+                                        <p>
+                                        <p class="color">Type: <strong>plastic</strong></p>
+                                        <p class="size">Solor: <strong>100 ml</strong></p>
+                                    </td>
+                                    <td class="cart-item-block price-info">
+                                        <span>PRICE</span>
+                                        <p class="price">$17.02 / EA</p>
+                                    </td>
+                                    <td class="cart-item-block qty-info">
+                                        <span>QUANTITY</span>
+                                        <div class="quantity flex-wrap">
+                                            <button class="increase-btn flex-wrap">
+                                                <span class="material-symbols-outlined">
+                                                    expand_less
+                                                </span>
+                                            </button>
+                                            <input type="text" value="6">
+                                            <button class="decrease-btn flex-wrap">
+                                                <span class="material-symbols-outlined">
+                                                    expand_more
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </td>
+                                    <td class="cart-item-block sub-total-info">
+                                        <span>SUBTOTAL</span>
+                                        <div class="sub-total-div flex-wrap">
+                                            <p class="total-cost">$102.12</p>
+                                            <span class="material-symbols-outlined">
+                                                cancel
+                                            </span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="continue-shop-btn">
+                        <a href="#" class="flex-wrap">
                             <span class="material-symbols-outlined">
-                                shopping_cart
-                            </span> Proceed to Checkout</a>
-                        <p class="or-txt">— or —</p>
-                        <button class="other-pay-method">
-                            OTHER PAYMENT METHOD AREA
-                        </button>
+                                arrow_left
+                            </span>
+                            Continue Shopping
+                        </a>
                     </div>
                 </div>
             </section>
-            <section class="other-service-tab-mobile">
-                <div class="service-container">
+            <section class="other-services-desktop ">
+                <div class="service-container flex-wrap">
                     <div class="free-ship-cont">
                         <div class="policy-img-cont">
                             <img src="images/other-policy/free shipping.png" alt="parcel image">
@@ -308,12 +198,124 @@
                     </div>
                 </div>
             </section>
-        </main>
-        <footer class="footer">
+        </div>
+        <section class="order-summary">
+            <div class="summary-container">
+                <div class="heading">
+                    <h2>Order Summary</h2>
+                    <hr>
+                </div>
+                <div class="subtotoal flex-wrap">
+                    <span class="">Subtotal:</span>
+                    <p class="amt"> $158.66</p>
+                </div>
+                <div class="estim-ship flex-wrap">
+                    <span class="">Estimate Shipping:</span>
+                    <p class="cancel-btn"> <a href="#">Cancel</a></p>
+                </div>
+                <div class="inputs-container ">
+                    <div class="country flex-wrap">
+                        <label for="country">Country</label>
+                        <input type="text" placeholder="United States">
+                        <span class="material-symbols-outlined">
+                            expand_more
+                        </span>
+                    </div>
+                    <div class="state flex-wrap">
+                        <label for="state">State/Province</label>
+                        <input type="text" placeholder="State/Province">
+                        <span class="material-symbols-outlined">
+                            expand_more
+                        </span>
+                    </div>
+                    <div class="city flex-wrap">
+                        <label for="city">Suburb/City</label>
+                        <input type="text" placeholder="Suburb/City">
+                    </div>
+                    <div class="postal-code flex-wrap">
+                        <label for="zip code">ZIP/Postal Code</label>
+                        <input type="text" placeholder="ZIP/Postal Code">
+                    </div>
+                    <div class="estime-btn">
+                        <a href="">Estimate Shipping</a>
+                    </div>
+                </div>
+                <div class="promo-sec">
+                    <div class="promo-head flex-wrap">
+                        <p>Promo Code:</p>
+                        <a href="#">Add Promo Code</a>
+                    </div>
+                    <div class="promo-inputs flex-wrap">
+                        <input type="text" placeholder="Enter Code">
+                        <a href="#">Apply</a>
+                    </div>
+                </div>
+                <div class="grand-total flex-wrap">
+                    <p class="txt-content">Grand Total:</p>
+                    <h2 class="grand-amt">$158.66</h2>
+                </div>
+                <hr>
+                <div class="btm">
+                    <div class="discla-div flex-wrap">
+                        <span class="material-symbols-outlined">info</span>
+                        <p class="discla-txt">Orders shipping to Alaska, Hawaii, and International destinations will
+                            incur
+                            additional charges. You will receive a call from Customer Service with a quote for
+                            shipping
+                            after your order is placed.</p>
+                    </div>
+                    <a href="#" class="process-btn ">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span> Proceed to Checkout</a>
+                    <p class="or-txt">— or —</p>
+                    <button class="other-pay-method">
+                        OTHER PAYMENT METHOD AREA
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="other-service-tab-mobile">
+            <div class="service-container">
+                <div class="free-ship-cont">
+                    <div class="policy-img-cont">
+                        <img src="images/other-policy/free shipping.png" alt="parcel image">
+                    </div>
+                    <h4>Free shipping $300!</h4>
+                    <p class="detailed-txt">Orders under $300 have a Flat
+                        Shipping Rate of $20. Most orders arrive within 3-7 business days.
+                    </p>
+                    <a href="#">> See Details</a>
+                </div>
+                <div class="help-center-cont">
+                    <div class="policy-img-cont">
+                        <img src="images/other-policy/help center.png" alt="customer care">
+                    </div>
+                    <h4>We’re Here to Help!</h4>
+                    <p class="detailed-txt">Questions? Call our Customer Service Team at (800) 878-2822. Our
+                        hours are
+                        Mon-Fri 8am-5pm CST.</p>
+                </div>
+                <div class="return-policy-cont">
+                    <div class="policy-img-cont">
+                        <img src="images/other-policy/return policy.png" alt="return image">
+                    </div>
+                    <h4>Return Policy</h4>
+                    <p class="detailed-txt">Most products may be returned for credit if they are in new, salable
+                        condition with original packaging.
+                    </p>
+                    <a href="#">> See Details</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
             <p class="copy-right">
                 © 2022 Total Pharmacy Supply. All Rights Reserved.
             </p>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
+
 </html>
